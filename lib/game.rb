@@ -64,8 +64,15 @@ class Game
   end
 
   def play
+<<<<<<< HEAD
    turn until over?
   
+=======
+  #  until over? == true
+  #    turn
+  #  end
+
+>>>>>>> 387b8f6cb928d17d4d59b5132bd2444c949de648
     if won?
       puts "Congratulations #{winner}!"
     else draw?
